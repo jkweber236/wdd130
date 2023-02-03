@@ -1,0 +1,15 @@
+body {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+.hero-img {
+    
+}
+.icon {
+    width: 300px;
+    border-color: black;
+    border-image-width: 100px;
+}
+footer {
+    background-color: darkslategray
+}
