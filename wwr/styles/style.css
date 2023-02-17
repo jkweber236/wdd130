@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Fredoka+One&family=Roboto&family=Sofia+Sans&display=swap" rel="stylesheet');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Fredoka+One&family=Roboto&family=Sofia+Sans&display=swap');
 :root {
     --heading-font: "Concert One", Arial , Monospace;
     --paragraph-font: "Sofia Sans", Helvetica, sans-serif;  
@@ -18,6 +18,7 @@ nav a {
     text-align: center; 
 }
 .button-box {
+    padding: 25px;
     text-align: center;
 }
 main section {
@@ -84,16 +85,18 @@ footer {
     margin-top: 10px;
 }
 h4 {
-    color: black;
+    color: white;
+    padding-top: 50px;
 }
 .msg h2 {
     color: white;
     font-family: var(--heading-font);
+    padding-bottom: 15px;
 }
 .msg p {
     color: white;
     font-size: .8em;
-    padding-bottom: 15px;
+    padding-bottom: 20px;
 }
 footer a {
     color: black;
@@ -207,7 +210,7 @@ nav {
     }
     .home-title {
         font-size: 25px;
-        color: #6f7364;
+        color: #EE6258;
     }
     .rivers-card, .camping-card, .rapids-card { 
         margin: 50px auto;
