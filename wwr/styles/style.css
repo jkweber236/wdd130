@@ -83,7 +83,7 @@ footer {
     margin-top: 200px;
 }
 .faq-footer {
-    margin-top: 100px;
+    margin-top: 120px;
 }
 .home-title {
     color: #ee6258;
@@ -211,7 +211,7 @@ nav {
 }
 .faq-hero-img {
     width: 100%;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 .faq-text {
     margin-bottom: 50px;
@@ -229,7 +229,7 @@ nav {
     margin-top: 20px;
 }
 .row3image {
-    margin-top: 50px;
+    margin-top: 60px;
     height: 15%;
 }
 .row3text {
@@ -243,13 +243,28 @@ nav {
     margin-top: 30px;
 }
 .row5text {
-    margin-top: 30px;
+    margin-top: 70px;
 }
 .row5image {
-    margin-top: 50px;
+    margin-top: 80px;
 }
 .row6text {
-    margin-top: 30px;
+    margin-top: 40px;
+}
+.faq-title {
+    color: #ee6258;
+    font-family: var(--heading-font);
+    font-size: 2em;
+    margin-top: 10px;
+}
+#hero-msg-faq {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 10px;
+    margin-bottom: 50px
+}
+#hero-msg-faq h1 {
+    text-align: center; 
 }
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
