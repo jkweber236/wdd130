@@ -21,7 +21,7 @@ nav a {
     color: white;
     text-decoration: none;
     padding: 35px;
-    font-size: 1.5em;
+    font-size: 1.8em;
 }
 nav a:hover {
     background-color: #ADCAD6;
@@ -51,17 +51,21 @@ header {
 .main-subtitle {
     margin-top: 50px;
     margin-bottom: 20px;
+    font-size: 1.8em;
 }
 .section {
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 30px;
+    font-size: 1.1em;
 }
 .gameplay, .game, .set {
     grid-column: 2/3;
     margin: 25px;
     border: 2px solid black;
     width: 80%;
+    padding: 25px;
+    padding-bottom: 30px;
 }
 .homepage-img {
     grid-column: 1/2;
@@ -70,6 +74,7 @@ header {
 }
 .main-paragraph {
     grid-column: 1/3;
+    margin-bottom: 25px;
 }
 footer {
     background-color: #ADCAD6;
@@ -78,9 +83,9 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    grid-row: 6/7;
-    grid-column: 1/11;
-    font-size: 1.3em;
+    height: 75px;
+    font-size: 1.8em;   
+    margin-top: 50px;
 }
 #hero {
     display: grid;
@@ -101,7 +106,6 @@ footer {
 }
 .source {
     grid-column: 2/3;
-    margin-bottom: 50px;
     width: 90%;
 }
 @media screen and (max-width: 900px) {
