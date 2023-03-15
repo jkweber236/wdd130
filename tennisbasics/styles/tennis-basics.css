@@ -3,6 +3,11 @@
     --heading-font: "Bebas Neue";
     --paragraph-font: "Poppings", Helvetica, sans-serif;
 }
+#content {
+    max-width: 1600px; 
+    margin: 0 auto; 
+    font-family: var(--paragraph-font);
+}
 .logo {
     width: 100px;
 }
@@ -41,18 +46,27 @@ header {
 .home-grid {
     text-align: center;
     display: grid;
-    grid-template-columns: 1fr 1fr
+    grid-template-columns: 1fr 1fr;
 }
-.main-subtitle 
+.main-subtitle {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.section {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
 .gameplay, .game, .set {
     grid-column: 2/3;
     margin: 25px;
     border: 2px solid black;
-    width: 100%;
+    width: 80%;
 }
 .homepage-img {
     grid-column: 1/2;
     margin: 25px;
+    height: 100px;
 }
 .main-paragraph {
     grid-column: 1/3;
@@ -84,4 +98,50 @@ footer {
     margin-top: 175px;
     font-size: 1.8em;
     color: white;
+}
+.source {
+    grid-column: 2/3;
+    margin-bottom: 50px;
+    width: 90%;
+}
+@media screen and (max-width: 900px) {
+    #hero, .home-grid {
+        display: block;
+        height: auto;
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    #hero {
+        margin-top: 0;
+    }
+    #hero-msg {
+        margin-top: 0;
+    }
+    #hero-msg h4 {
+        display: none;
+    }
+    .home-title {
+        font-size: 25px;
+        color: white;
+    }
+    #background {
+        display: none;
+    }
+    .mountains, .msg {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+    footer {
+        margin-top: 25px;
+    }
+    #faq-hero, .faq-grid {
+        display: block;
+        height: auto;
+    }
 }
