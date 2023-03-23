@@ -116,6 +116,65 @@ footer {
 .source1 {
     margin-bottom: 15px;
 }
+#hero-box-rules {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+.hero-img-rules {
+    width: 90%;
+    border: solid white 75px;
+}
+#hero-msg-rules {
+    margin-top: -920px;
+    margin-bottom: 950px;
+    font-size: 1.8em;
+}
+.text-rules {
+    grid-column: 1/2;
+    text-align: left;
+    border: solid black 3px;
+    margin-left: 140px;
+    margin-right: 10px;
+    padding: 35px;
+    padding-right: 50px;
+    padding-left: 50px;
+    font-size: 21px;
+}
+.subtitle-rules {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+    margin-top: -5px;
+}
+.rules-img {
+    grid-column: 2/3;
+    margin-top: -260px;
+}
+.first-image {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: -655px;
+    width: 60%;
+    padding: 5px;
+    height: 95%
+}
+.second-image {
+    width: 60%;
+    height: 95%;
+    padding: 5px;
+}
+.third-image {
+    width: 60%;
+    height: 95%;
+}
+.source-rules {
+    grid-column: 1/2;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 100px;
+}
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
@@ -156,7 +215,6 @@ footer {
     .home-title {
         font-size: 30px;
         color: black;
-        
     }
     .main-subtitle {
         font-size: 20px;
@@ -196,5 +254,49 @@ footer {
         font-size: 20px;
         margin-left: auto;
         margin-right: auto;
+    }
+    .hero-img-rules {
+        width: 100%;
+        height: auto;
+        border: solid white 0px;
+        display: block;
+        margin-bottom: -125%;
+    }
+    #hero-box-rules {
+        z-index: -1;
+    }
+    .text-rules {
+        font-size: 13px;
+        margin-right: 25px;
+        margin-left: 25px;
+        padding: 25px;
+        margin-bottom: 77%;
+    }
+    .rules-img {
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .first-image {
+        padding-bottom: 30px;
+        width: 85%;
+        margin-top: 45%;
+    }
+    .second-image {
+        padding-bottom: 30px;
+        width: 85%;
+    }
+    .third-image {
+        width: 85%;
+    }
+    #hero-msg-rules {
+        display: none;
+    }
+    .subtitle-rules {
+        font-size: 22px;
+        margin-top: -5px;
+        margin-bottom: 15px;
+    }
+    .source-rules {
+        display: none;
     }
 }
