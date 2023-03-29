@@ -282,8 +282,9 @@ footer {
     .home-grid {
         margin-top: 500px;
     }
-    .logo {
-        width: 160px;
+    .logo {width: 100%;
+        /*width: 160px;*/
+        height: 100%;
     }
     #hero-box {
         z-index: -1;
