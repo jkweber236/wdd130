@@ -189,8 +189,6 @@ footer {
     padding-bottom: 4%;
 }
 #hero-msg-faq {
-    /*margin-top: -880px;
-    margin-bottom: 860px;*/
     font-size: 2.8em;
     font-family: var(--heading-font);
     color: white;
@@ -205,8 +203,6 @@ footer {
     padding: 20px;
     text-align: center;
     margin-bottom: 50px;
-    /*margin-left: 25px;*/
-    /*margin-right: 25px;*/
     font-family: var(--paragraph-font);
     font-size: 20px;
 }
@@ -214,7 +210,6 @@ footer {
     width: 90%;
     height: 85%;
     margin-left: 5%;
-    /*margin-bottom: 46px;*/
 }
 .second-faq-img {
     width: 90%;
@@ -284,7 +279,6 @@ footer {
     }
     .logo {
         width: 100%;
-        /*width: 160px;*/
         height: 100%;
     }
     #hero-box {
@@ -398,7 +392,6 @@ footer {
         display: none;
     }
     .home-grid-faq {
-        /*margin-top: -150%;*/
         display: block;
         grid-template-columns: 1fr;
     }
