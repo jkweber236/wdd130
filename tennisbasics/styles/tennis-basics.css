@@ -8,8 +8,14 @@
     margin: 0 auto; 
     font-family: var(--paragraph-font);
 }
+#content-faq {
+    max-width: 1600px; 
+    margin: 0 auto; 
+    font-family: var(--paragraph-font);
+}
 .logo {
     width: 100px;
+    height: 100%;
 }
 #logo_link {
     padding-top: 5px;
@@ -33,13 +39,14 @@ nav {
 }
 .home-title {
     text-align: center;
+    margin-top: 5%;
 }
 .home-title-faq {
     text-align: center;
 }
 .hero-img {
     width: 100%;
-    margin-top: -200px;
+    /*margin-top: -200px;*/
 }
 header {
     background-color: #006E90;
@@ -51,35 +58,61 @@ header {
     text-align: center;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    padding-bottom: 40px;
+}
+.home-grid-rules {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 40px;
 }
 .main-subtitle {
-    margin-top: 60px;
-    margin-bottom: 20px;
+    margin-top: 5%;
+    margin-bottom: 2%;
     font-size: 1.8em;
 }
 .section {
-    margin-left: 150px;
-    margin-right: 150px;
-    margin-bottom: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 4%;
     font-size: 1.1em;
 }
 .gameplay, .game, .set {
+    display: grid;
     grid-column: 2/3;
-    margin: 25px;
+    margin: 3.5%;
     border: 3px solid black;
     width: 80%;
-    padding: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
     padding-bottom: 30px;
 }
+.information {
+    height: 110%;
+}
+.gameplay {
+    height: 8%;
+}
+.game {
+    height: 36%;
+}
+.set {
+    height: 24%;
+}
 .subtitle {
-    margin-bottom: 10px;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 .homepage-img {
+    display: grid;
     grid-column: 1/2;
     margin: 25px;
     margin-left: auto;
     margin-right: auto;
-    height: 90%;
+    /*height: 76%;
+    width: 76%;*/
+    height: 93%;
+    width: 76%;
 }
 .main-paragraph {
     grid-column: 1/3;
@@ -95,12 +128,16 @@ footer {
     height: 60px;
     font-size: 1.8em;   
     margin-top: 50px;
-    font-family: var(--paragraph-font)
+    font-family: var(--paragraph-font);
+}
+.text-box {
+    margin-top: 9%;
+    margin-bottom: 9%;;
 }
 #hero {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
-    margin-top: -100px;
+    margin-top: -5%;
 }
 #hero-box {
     grid-column: 1/4;
@@ -108,9 +145,6 @@ footer {
     z-index: -1;
 }
 #hero-msg {
-    grid-column: 2/3;
-    grid-row: 1/2;
-    margin-top: 175px;
     font-size: 1.8em;
     color: white;
 }
@@ -127,88 +161,103 @@ footer {
     z-index: -1;
 }
 .hero-img-rules {
-    width: 90%;
-    border: solid white 75px;
-}
-#hero-msg-rules {
-    margin-top: -920px;
-    margin-bottom: 950px;
-    font-size: 1.8em;
-    font-family: var(--heading-font);
+    width: 100%;
+    padding-bottom: 5%;
 }
 .text-rules {
     grid-column: 1/2;
     text-align: left;
     border: solid black 3px;
-    margin-left: 140px;
-    margin-right: 10px;
-    padding: 35px;
-    padding-right: 50px;
-    padding-left: 50px;
-    font-size: 19.5px;
-    font-family: var(--paragraph-font)
+    margin-left: 19%;
+    margin-right: 2%;
+    padding: 4.6%;
+    padding-right: 6%;
+    padding-left: 6%;
+    font-size: 123%;
+    font-family: var(--paragraph-font);
+    grid-row: 1/4;
 }
 .subtitle-rules {
     text-align: center;
-    margin-bottom: 20px;
-    font-size: 30px;
-    margin-top: -5px;
+    margin-bottom: 4%;
+    font-size: 200%;
     font-family: var(--heading-font);
 }
 .rules-img {
     grid-column: 2/3;
-    margin-top: -260px;
+    margin-top: -36%;
 }
 .first-image {
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    margin-top: -650px;
+    margin-top: -85%;
     width: 60%;
-    padding: 5px;
-    height: 95%
+    height: 89%;
+    display: grid; 
+    grid-row: 1/2;
+    padding-left: 20%;
+    padding-right: 15%;
+    padding-bottom: 2.5%;
 }
 .second-image {
     width: 60%;
-    height: 95%;
-    padding: 5px;
+    height: 89%;
+    display: grid;
+    grid-row: 2/3;
+    padding-left: 20%;
+    padding-right: 15%;
+    padding-bottom: 2.5%;
 }
 .third-image {
     width: 60%;
-    height: 95%;
+    height: 89%;
+    display: grid;
+    grid-row: 3/4;
+    padding-right: 15%;
+    padding-left: 20%;;
+    padding-bottom: 2%;
 }
 .source-rules {
     grid-column: 1/2;
     text-align: center;
-    margin-top: 30px;
-    margin-left: 100px;
+    margin-top: 5%;
+    margin-left: 10%;
     font-family: var(--paragraph-font)
 }
 .hero-img-faq {
     width: 100%;
     padding-bottom: 4%;
+    grid-row: 1/2;
 }
 #hero-msg-faq {
     font-size: 2.8em;
     font-family: var(--heading-font);
     color: white;
     text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -210%);
+    display: grid;
+    grid-row: 1/2;
+    grid-column: 2/3;
+    align-content: center;
+    margin-top: -40%;
+    margin-bottom: 36%;
+}
+#hero-box-faq {
+    z-index: -1;
+}
+#hero-faq {
+    grid-template-rows: 1fr 1fr 1fr;
+    z-index: -1;
 }
 .p1, .p2, .p3, .p4, .p5, .p6, .p7, .p8, .p9, .p10 {
     border: solid black 2px;
     padding: 20px;
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 12%;
     font-family: var(--paragraph-font);
     font-size: 20px;
 }
 .first-faq-img {
     width: 90%;
-    height: 85%;
+    margin-bottom: 12%;
+    height: 83%;
     margin-left: 5%;
 }
 .second-faq-img {
@@ -264,18 +313,45 @@ footer {
     margin-left: 4%;
     margin-right: 4%;
 }
+#hero-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+}
+#hero-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+#feedback {
+    margin-top: 100px;
+}
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
-        height: auto;
     }
     .hero-img {
         width: 100%;
-        position: absolute;
-        padding-top: 200px;
+        /*position: absolute;
+        padding-top: 200px;*/
     }
     .home-grid {
-        margin-top: 500px;
+        display: block;
+        /*margin-top: 500px;*/
+        margin: 0px;
+    }
+    .home-grid-rules {
+        display: block;
+        margin: 0px;
+    }
+    .homepage-img {
+        width: 70%;
+        padding-bottom: 3%;
+    }
+    .main-paragraph {
+        display: grid;
+        grid-row: 1/2;
+        margin-top: 45%;
     }
     .logo {
         width: 100%;
@@ -288,13 +364,20 @@ footer {
         margin-left: auto;
         margin-right: auto;
     }
-    footer {
-        flex-direction: row;
-        column-gap: 7%;
-        margin-top: 45px;
-        font-size: 20px;
+    #content-faq {
         margin-left: auto;
         margin-right: auto;
+    }
+    footer {
+        flex-direction: row;
+        column-gap: 8%;
+        margin-top: 2%;
+        font-size: 18px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        height: 10%;
     }
     nav {
         flex-direction: column;
@@ -308,11 +391,11 @@ footer {
         margin-top: 0;
     }
     #hero-msg {
-        margin-top: 0;
+        margin-top: 0; 
     }
     .home-title {
         font-size: 30px;
-        color: black;
+        margin-top: -50%;
     }
     .main-subtitle {
         font-size: 20px;
@@ -326,21 +409,26 @@ footer {
         margin-right: 50px;
     }
     .source1 {
-        font-size: 15px;
+        font-size: 14px;
+        margin-bottom: 0%;
     }
     .source {
         margin-left: auto;
         margin-right: auto;
+        font-size: 14px;
     }
     .homepage-img {
         height: 100%;
-        margin-top: 35px;
-        margin-bottom: 35px;
+        margin-top: 5%;
+        margin-bottom: 5%;
     }
     .gameplay, .game, .set {
         margin-left: auto;
         margin-right: auto;
         font-size: 14px;
+        width: 70%;
+        padding-top: 2%;
+        padding-bottom: 4%;
     }
     .msg {
         width: 80%;
@@ -358,35 +446,42 @@ footer {
         z-index: -1;
     }
     .text-rules {
-        font-size: 13px;
-        margin-right: 25px;
-        margin-left: 25px;
-        padding: 25px;
-        margin-bottom: 77%;
+        font-size: 90%;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 5%;
+        padding-left: 10%;
+        padding-right: 10%;
+        /* margin-bottom: 40%; */
+        margin-top: 128%;
+        width: 60%;
     }
     .rules-img {
+        margin-top: auto;
         margin-right: auto;
         margin-left: auto;
     }
     .first-image {
-        padding-bottom: 30px;
-        width: 85%;
-        margin-top: 45%;
+        padding-bottom: 4%;
+        width: 60%;
+        margin-top: 10%;
+        margin-right: auto;
     }
     .second-image {
-        padding-bottom: 30px;
-        width: 85%;
+        padding-bottom: 4%;
+        width: 60%;
+        margin-right: auto;
     }
     .third-image {
-        width: 85%;
+        width: 60%;
+        margin-right: auto;
+        padding-bottom: 0%;
     }
     #hero-msg-rules {
         display: none;
     }
     .subtitle-rules {
-        font-size: 22px;
-        margin-top: -5px;
-        margin-bottom: 15px;
+        font-size: 200%;
     }
     .source-rules {
         display: none;
@@ -394,6 +489,7 @@ footer {
     .home-grid-faq {
         display: block;
         grid-template-columns: 1fr;
+        margin-top: -33%;
     }
     .Row1 {
         display: block;
@@ -410,25 +506,25 @@ footer {
     .p1, .p2, .p3, .p4, .p5, .p6, .p7, .p8, .p9, .p10 {
         margin-left: 10%;
         margin-right: 10%;
-        margin-bottom: 10%;
+        margin-bottom: 5%;
         font-size: 100%;
         padding: 5%;
     }
     .p10 {
-        margin-bottom: 0%;
+        margin-bottom: 7%;
     }
     .first-faq-img {
         width: 80%;
         margin-left: 10%;
         margin-right: 10%;
-        margin-bottom: 10%;
+        margin-bottom: 5%;
     }
     .second-faq-img {
         width: 80%;
         margin-left: 10%;
         margin-right: 10%;
         height: 80%;
-        margin-bottom: 10%;
+        margin-bottom: 5%;
     }
     .footer-piece {
         margin-top: 0%;
@@ -436,8 +532,25 @@ footer {
         padding: 0%;
     }
     .home-title-faq {
-        font-size: 35px;
+        font-size: 90%;
         color: white;
-        margin-top: -430%;
+        margin-top: -40%;
+    }
+    #hero-msg-faq {
+        margin-top: 0;
+    }
+    #hero-faq {
+        margin-top: 0;
+    }
+    #hero-faq {
+        display: block;
+        height: auto;
+    }
+    .home-title-faq {
+        z-index: 5;
+    }
+    .text-box {
+        margin-top: 20%;
+        margin-bottom: 21%;;
     }
 }
