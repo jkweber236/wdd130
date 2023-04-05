@@ -8,11 +8,6 @@
     margin: 0 auto; 
     font-family: var(--paragraph-font);
 }
-#content-faq {
-    max-width: 1600px; 
-    margin: 0 auto; 
-    font-family: var(--paragraph-font);
-}
 .logo {
     width: 100px;
     height: 100%;
@@ -64,10 +59,10 @@ header {
     text-align: center;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding-bottom: 40px;
+    /* padding-bottom: 40px; */
 }
 .main-subtitle {
-    margin-top: 5%;
+    margin-top: 3%;
     margin-bottom: 2%;
     font-size: 1.8em;
 }
@@ -185,12 +180,10 @@ footer {
 }
 .rules-img {
     grid-column: 2/3;
-    margin-top: -36%;
+    grid-row: 1;
 }
 .first-image {
-    margin-top: -85%;
     width: 60%;
-    height: 89%;
     display: grid; 
     grid-row: 1/2;
     padding-left: 20%;
@@ -199,7 +192,6 @@ footer {
 }
 .second-image {
     width: 60%;
-    height: 89%;
     display: grid;
     grid-row: 2/3;
     padding-left: 20%;
@@ -208,12 +200,10 @@ footer {
 }
 .third-image {
     width: 60%;
-    height: 89%;
     display: grid;
     grid-row: 3/4;
     padding-right: 15%;
     padding-left: 20%;;
-    padding-bottom: 2%;
 }
 .source-rules {
     grid-column: 1/2;
@@ -364,10 +354,6 @@ footer {
         margin-left: auto;
         margin-right: auto;
     }
-    #content-faq {
-        margin-left: auto;
-        margin-right: auto;
-    }
     footer {
         flex-direction: row;
         column-gap: 8%;
@@ -394,11 +380,12 @@ footer {
         margin-top: 0; 
     }
     .home-title {
-        font-size: 30px;
-        margin-top: -50%;
+        font-size: 75%;
+        margin-top: -35%;
     }
     .main-subtitle {
         font-size: 20px;
+        margin-top: -7%;
     }
     .subtitle {
         font-size: 18px;
@@ -475,7 +462,7 @@ footer {
     .third-image {
         width: 60%;
         margin-right: auto;
-        padding-bottom: 0%;
+        padding-bottom: 6%;
     }
     #hero-msg-rules {
         display: none;
